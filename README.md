@@ -4,10 +4,11 @@ A VU meter that can be used as a title overlay in vMix
 ## Add the datasource with audio level data
 
 Create a new XML datasource:
+```
 Name: MasterAudio
 URL/Filename: http://127.0.0.1:8088/api
 XPath: /vmix/audio/master
-
+```
 Set update time to 100ms (the lowest possible).
 
 You should now have meterF1 and meterF2 available as dynamic data fields.
